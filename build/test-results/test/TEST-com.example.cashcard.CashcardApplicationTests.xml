@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.cashcard.CashCardApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-21T13:45:37" hostname="AniruddhasAir2.lan" time="0.552">
+<testsuite name="com.example.cashcard.CashCardApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-21T17:20:13" hostname="AniruddhasAir2.lan" time="0.563">
   <properties/>
-  <testcase name="shouldReturnACashCardWhenDataIsSaved()" classname="com.example.cashcard.CashCardApplicationTests" time="0.548"/>
+  <testcase name="shouldReturnACashCardWhenDataIsSaved()" classname="com.example.cashcard.CashCardApplicationTests" time="0.556"/>
   <testcase name="shouldNotReturnACashCardWithAnUnknownId()" classname="com.example.cashcard.CashCardApplicationTests" time="0.004"/>
-  <system-out><![CDATA[09:45:36.868 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-09:45:36.914 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashCardApplicationTests
+  <system-out><![CDATA[13:20:12.081 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:20:12.154 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashCardApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -15,18 +15,18 @@
 
  :: Spring Boot ::       (v3.3.3-SNAPSHOT)
 
-2024-08-21T09:45:37.156-04:00  INFO 21742 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : Starting CashCardApplicationTests using Java 22.0.2 with PID 21742 (started by ashivan in /Users/ashivan/Desktop/work_space/cashcard)
-2024-08-21T09:45:37.158-04:00  INFO 21742 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2024-08-21T09:45:37.719-04:00  INFO 21742 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2024-08-21T09:45:37.729-04:00  INFO 21742 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-21T09:45:37.729-04:00  INFO 21742 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-08-21T09:45:37.763-04:00  INFO 21742 --- [cashcard] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-21T09:45:37.763-04:00  INFO 21742 --- [cashcard] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 594 ms
-2024-08-21T09:45:37.978-04:00  INFO 21742 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 52034 (http) with context path '/'
-2024-08-21T09:45:37.984-04:00  INFO 21742 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : Started CashCardApplicationTests in 1.009 seconds (process running for 1.623)
-2024-08-21T09:45:38.473-04:00  INFO 21742 --- [cashcard] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-21T09:45:38.473-04:00  INFO 21742 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-21T09:45:38.474-04:00  INFO 21742 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-21T13:20:12.467-04:00  INFO 24374 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : Starting CashCardApplicationTests using Java 22.0.2 with PID 24374 (started by ashivan in /Users/ashivan/Desktop/work_space/cashcard)
+2024-08-21T13:20:12.467-04:00  INFO 24374 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T13:20:13.108-04:00  INFO 24374 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-08-21T13:20:13.119-04:00  INFO 24374 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T13:20:13.119-04:00  INFO 24374 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-21T13:20:13.154-04:00  INFO 24374 --- [cashcard] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T13:20:13.156-04:00  INFO 24374 --- [cashcard] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 668 ms
+2024-08-21T13:20:13.395-04:00  INFO 24374 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 52394 (http) with context path '/'
+2024-08-21T13:20:13.408-04:00  INFO 24374 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : Started CashCardApplicationTests in 1.177 seconds (process running for 1.923)
+2024-08-21T13:20:13.911-04:00  INFO 24374 --- [cashcard] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-21T13:20:13.911-04:00  INFO 24374 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-21T13:20:13.911-04:00  INFO 24374 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/ashivan/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
