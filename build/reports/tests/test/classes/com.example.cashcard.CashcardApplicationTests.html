@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - CashcardApplicationTests</title>
+<title>Test results - CashCardApplicationTests</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>CashcardApplicationTests</h1>
+<h1>CashCardApplicationTests</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/com.example.cashcard.html">com.example.cashcard</a> &gt; CashcardApplicationTests</div>
+<a href="../packages/com.example.cashcard.html">com.example.cashcard</a> &gt; CashCardApplicationTests</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.344s</div>
+<div class="counter">0.552s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,8 +81,13 @@
 </tr>
 </thead>
 <tr>
-<td class="success">contextLoads()</td>
-<td class="success">0.344s</td>
+<td class="success">shouldNotReturnACashCardWithAnUnknownId()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnACashCardWhenDataIsSaved()</td>
+<td class="success">0.548s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,8 +95,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>15:04:00.342 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cashcard.CashcardApplicationTests]: CashcardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:04:00.378 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashcardApplicationTests
+<pre>09:45:36.868 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cashcard.CashCardApplicationTests]: CashCardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:45:36.914 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashCardApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -102,9 +107,18 @@
 
  :: Spring Boot ::       (v3.3.3-SNAPSHOT)
 
-2024-08-18T15:04:00.506-04:00  INFO 11030 --- [cashcard] [    Test worker] c.e.cashcard.CashcardApplicationTests    : Starting CashcardApplicationTests using Java 22.0.2 with PID 11030 (started by ashivan in /Users/ashivan/Desktop/cashcard)
-2024-08-18T15:04:00.506-04:00  INFO 11030 --- [cashcard] [    Test worker] c.e.cashcard.CashcardApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2024-08-18T15:04:00.805-04:00  INFO 11030 --- [cashcard] [    Test worker] c.e.cashcard.CashcardApplicationTests    : Started CashcardApplicationTests in 0.389 seconds (process running for 0.775)
+2024-08-21T09:45:37.156-04:00  INFO 21742 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : Starting CashCardApplicationTests using Java 22.0.2 with PID 21742 (started by ashivan in /Users/ashivan/Desktop/work_space/cashcard)
+2024-08-21T09:45:37.158-04:00  INFO 21742 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-08-21T09:45:37.719-04:00  INFO 21742 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-08-21T09:45:37.729-04:00  INFO 21742 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-21T09:45:37.729-04:00  INFO 21742 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-21T09:45:37.763-04:00  INFO 21742 --- [cashcard] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-21T09:45:37.763-04:00  INFO 21742 --- [cashcard] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 594 ms
+2024-08-21T09:45:37.978-04:00  INFO 21742 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 52034 (http) with context path '/'
+2024-08-21T09:45:37.984-04:00  INFO 21742 --- [cashcard] [    Test worker] c.e.cashcard.CashCardApplicationTests    : Started CashCardApplicationTests in 1.009 seconds (process running for 1.623)
+2024-08-21T09:45:38.473-04:00  INFO 21742 --- [cashcard] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-21T09:45:38.473-04:00  INFO 21742 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-21T09:45:38.474-04:00  INFO 21742 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 </pre>
 </span>
 </div>
@@ -126,7 +140,7 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.8</a> at Aug 18, 2024, 3:04:01 PM</p>
+<a href="http://www.gradle.org">Gradle 8.8</a> at Aug 21, 2024, 9:45:38 AM</p>
 </div>
 </div>
 </body>
