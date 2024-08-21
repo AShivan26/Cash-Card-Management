@@ -1,2 +1,3 @@
-/Users/ashivan/Desktop/work_space/cashcard/build/classes/java/test/com/example/cashcard/CashcardApplicationTests.class
+/Users/ashivan/Desktop/work_space/cashcard/build/classes/java/test/com/example/cashcard/controller/CashCardController.class
+/Users/ashivan/Desktop/work_space/cashcard/build/classes/java/test/com/example/cashcard/CashCardApplicationTests.class
 /Users/ashivan/Desktop/work_space/cashcard/build/classes/java/test/com/example/cashcard/CashCardJsonTest.class
