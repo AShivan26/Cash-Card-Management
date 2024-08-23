@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.cashcard.CashCardJsonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-21T17:20:14" hostname="AniruddhasAir2.lan" time="0.023">
+<testsuite name="com.example.cashcard.CashCardJsonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-23T20:28:38" hostname="aniruddhasair2.lan" time="0.022">
   <properties/>
-  <testcase name="cashCardSerializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.014"/>
+  <testcase name="cashCardSerializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.013"/>
   <testcase name="cashCardDeserializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.008"/>
-  <system-out><![CDATA[2024-08-21T13:20:13.983-04:00  INFO 24374 --- [cashcard] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.cashcard.CashCardJsonTest]: CashCardJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-21T13:20:13.987-04:00  INFO 24374 --- [cashcard] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashCardJsonTest
+  <system-out><![CDATA[2024-08-23T16:28:38.740-04:00  INFO 10414 --- [cashcard] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.cashcard.CashCardJsonTest]: CashCardJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-23T16:28:38.744-04:00  INFO 10414 --- [cashcard] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashCardJsonTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -15,9 +15,9 @@
 
  :: Spring Boot ::       (v3.3.3-SNAPSHOT)
 
-2024-08-21T13:20:13.998-04:00  INFO 24374 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : Starting CashCardJsonTest using Java 22.0.2 with PID 24374 (started by ashivan in /Users/ashivan/Desktop/work_space/cashcard)
-2024-08-21T13:20:13.998-04:00  INFO 24374 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : No active profile set, falling back to 1 default profile: "default"
-2024-08-21T13:20:14.034-04:00  INFO 24374 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : Started CashCardJsonTest in 0.046 seconds (process running for 2.549)
+2024-08-23T16:28:38.754-04:00  INFO 10414 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : Starting CashCardJsonTest using Java 22.0.2 with PID 10414 (started by ashivan in /Users/ashivan/Desktop/work_space/cashcard)
+2024-08-23T16:28:38.754-04:00  INFO 10414 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : No active profile set, falling back to 1 default profile: "default"
+2024-08-23T16:28:38.790-04:00  INFO 10414 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : Started CashCardJsonTest in 0.045 seconds (process running for 2.168)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
